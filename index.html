@@ -3,12 +3,47 @@
 <head>
   <meta charset="utf-8">
   <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <div class="outer">
     <section>
-      lorem ipsum dolor set
+      <form class="main-form" action="index.html" method="post">
+        <legend>Sign up</legend>
+        <div class="buttons">
+          <input type="radio" name="admin" value="admin" id="admin">
+          <label for="admin">admin</label>
+          <input checked type="radio" name="personal" value="personal" id="personal">
+          <label for="personal">personal</label>
+          <input type="radio" name="guest" value="guest">
+          <label for="guest">guest</label>
+        </div>
+        <div class="fields">
+          <div class="name">
+            <label for="name">name</label>
+            <input type="text" name="name" value="" id="name">
+          </div>
+          <div class="email-address">
+            <label for="email-address">email address</label>
+            <input type="email" name="email address" value="" id="email-address">
+          </div>
+          <div class="password">
+            <label for="password">password</label>
+            <input type="password" name="password" value="" id="password">
+          </div>
+          <div class="confirm-password">
+            <label for="confirm-password">confirm password</label>
+            <input type="password" name="confirm password" value="" id="confirm-password">
+          </div>
+        </div>
+        <div class="profile-picture">
+          <input type="file" name="profile picture" value="No file chosen">
+        </div>
+        <div class="sign-up">
+          <button type="submit" name="button1">sign up</button>
+        </div>
+      </form>
     </section>
   </div>
 </body>
