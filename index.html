@@ -13,15 +13,15 @@
         <legend>Sign up</legend>
         <div class="buttons">
           <div class="admin">
-            <input type="radio" name="admin" value="admin" id="admin">
+            <input type="radio" name="radio1" value="admin" id="admin">
             <label for="admin">admin</label>
           </div>
           <div class="personal">
-            <input checked type="radio" name="personal" value="personal" id="personal">
+            <input type="radio" name="radio1" value="personal" id="personal" checked>
             <label for="personal">personal</label>
           </div>
           <div class="guest">
-            <input type="radio" name="guest" value="guest">
+            <input type="radio" name="radio1" value="guest" id="guest">
             <label for="guest">guest</label>
           </div>
         </div>
@@ -43,11 +43,14 @@
             <input type="password" name="confirm password" value="" id="confirm-password">
           </div>
         </div>
-        <div class="profile-picture">
-          <input type="file" name="profile picture" value="No file chosen">
-        </div>
-        <div class="sign-up">
-          <button type="submit" name="button1">sign up</button>
+        <div class="bottom">
+          <div class="profile-picture">
+            <label for="profile-picture">profile picture</label><br>
+            <input type="file" name="profile picture" value="No file chosen" id="profile-picture">
+          </div>
+          <div class="sign-up">
+            <button type="submit" name="button1">sign up</button>
+          </div>
         </div>
       </form>
     </section>

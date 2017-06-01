@@ -28,6 +28,17 @@ section {
   width: 59.4679186228%
 }
 
+/*-----legend-----*/
+
+legend {
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 42px;
+}
+
+/*-----radio buttons-----*/
+
 .buttons {
   display: flex;
   font-weight: 300;
@@ -38,12 +49,60 @@ section {
   text-align: center;
 }
 
-legend {
-  margin: 0 auto;
-  font-size: 30px;
-  font-weight: bold;
-  padding-bottom: 42px;
+/*-----input fields-----*/
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 300;
+  padding: 30px;
+  padding-bottom: 0;
 }
 
+.fields div {
+  flex: 1 1 40%;
+  padding-bottom: 40px;
+}
 
-/*760 1278*/
+.fields input {
+  width: 335px;
+  height: 40px;
+  border-color: rgb(223, 223, 223);
+  border-style: solid;
+  border-width: 1px;
+}
+
+/*-----bottom section-----*/
+
+.bottom {
+  display: flex;
+  padding: 30px;
+  padding-top: 0;
+}
+
+.bottom div {
+  flex: 1 1 40%;
+}
+
+.sign-up button {
+  width: 335px;
+  height: 40px;
+  background-color: white;
+  border: solid;
+  border-radius: 6px;
+  border-width: 1.5px;
+}
+
+.profile-picture input {
+  background-color: white;
+  border-color: rgb(206, 206, 206);
+  border-width: thin;
+}
+
+.profile-picture label {
+  font-weight: 300;
+}
+
+br {
+  line-height: 30px;
+}
